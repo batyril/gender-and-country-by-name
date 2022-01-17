@@ -15,8 +15,8 @@ function GetMale(name){
         .then(response => response.json())
         .then( function (user)  {
             endMale = user.gender;
-            UI_ELEMENTS.NAME.textContent =  `  ${name}`;
-            UI_ELEMENTS.MALE.textContent =  `  ${endMale}`;
+            UI_ELEMENTS.NAME.textContent =  `${name}`;
+            UI_ELEMENTS.MALE.textContent =  `${endMale}`;
         } );
 
 }
@@ -31,7 +31,7 @@ function GetCountry(name){
             return user.country[0]
         } )
         .then( function (country) {
-            UI_ELEMENTS.COUNTRY.textContent =  `  ${country.country_id}`;
+            UI_ELEMENTS.COUNTRY.textContent =  `${country.country_id}`;
         });
 
 }
