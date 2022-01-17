@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #FF9A8B;
+  background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+  min-height: 500px;
+}
+section .container {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  width: 600px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .container .title {
+  align-self: flex-start;
+  padding: 25px;
+  align-content: center;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+section .container form {
+  margin-top: 20px;
+}
+section .container form input {
+  height: 25px;
+  width: 250px;
+}
+section .container .name {
+  align-items: baseline;
+  display: flex;
+  align-self: flex-start;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 100px;
+  margin-top: 35px;
+}
+section .container .name p:last-child {
+  margin-left: 10px;
+  font-weight: bold;
+}
+section .container .male {
+  align-items: baseline;
+  display: flex;
+  align-self: flex-start;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+section .container .male p:last-child {
+  margin-left: 10px;
+  font-weight: bold;
+}
+section .container .country {
+  align-items: baseline;
+  display: flex;
+  align-self: flex-start;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 100px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+section .container .country p:last-child {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
